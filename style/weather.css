@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+}
+
+.white{
+  color: white;
+}
+
+.card{
+  width: 500px;
+  height: 800px;
+  background: #4c8bdd;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.card input[type="text"]{
+  border: 0;
+  padding: 1rem;
+  margin: 1rem 1rem 1rem 0;
+}
+
+.card input[type="text"]:hover{
+  transform: scale(1.1);
+}
+
+.card input[type="button"]{
+  border: 0;
+  background-color: rgba(72, 172, 253, 0.527);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#temp{
+  font-size: 38px;
+}
+
+#desc{
+  font-size: 20px;
+}

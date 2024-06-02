@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+}
+
+.containier{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6rem;
+}
+
+.card{
+    width: 15vw;
+    height: 50vh;
+    background: #fff;
+    border-radius: 15px;
+    padding: 1rem;
+    text-align: center;
+    margin: 2rem;
+}
+.card img{
+    width: 100%;
+    max-height: 50%;
+}
+.card p{
+    padding: 1rem;
+}
+
+.card button{
+    vertical-align: bottom;
+    bottom: 512px;
+    border: 0;
+    font-size: 18px;
+    padding: 10px 20px;
+    background: #b4b4b4;
+}
+.card button:hover{
+    background: #9c9c9c;
+    cursor: pointer;
+}
